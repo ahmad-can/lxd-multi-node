@@ -10,8 +10,8 @@ module "compute" {
   source     = "./modules/compute"
   count      = var.nb_vm
 
-  cores  = count.index == 0 ? "6" : "4"
-  memory = count.index == 0 ? "20GiB" : "10GiB"
+  cores  = count.index == 0 ? "20" : "12"
+  memory = count.index == 0 ? "60GiB" : "30GiB"
 
   hostname          = "bm${count.index}"
   management_domain = local.restricted_domain

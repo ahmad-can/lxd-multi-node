@@ -1,3 +1,3 @@
 variable "nb_vm" {
-  default = 1
+  default = 2
 }

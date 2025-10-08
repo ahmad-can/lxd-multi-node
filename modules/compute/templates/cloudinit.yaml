@@ -15,7 +15,7 @@ users:
     groups: [sudo]
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_import_id:
-      - lp:gboutry
+      - lp:hassahma
 # write_files:
 #   - path: /etc/apt/apt.conf.d/00-proxy
 #     permissions: "0640"
